@@ -9,6 +9,8 @@ arange = ttnn._ttnn.operations.moreh.moreh_arange
 bmm = ttnn._ttnn.operations.moreh.moreh_bmm
 bmm_backward = ttnn._ttnn.operations.moreh.moreh_bmm_backward
 getitem = ttnn._ttnn.operations.moreh.moreh_getitem
+linear = ttnn._ttnn.operations.moreh.moreh_linear
+linear_backward = ttnn._ttnn.operations.moreh.moreh_linear_backward
 logsoftmax = ttnn._ttnn.operations.moreh.moreh_logsoftmax
 logsoftmax_backward = ttnn._ttnn.operations.moreh.moreh_logsoftmax_backward
 matmul = ttnn._ttnn.operations.moreh.moreh_matmul
@@ -29,3 +31,4 @@ SoftmaxBackwardOp = ttnn._ttnn.operations.moreh.MorehSoftmaxBackwardOp
 SoftmaxBackwardOpParallelizationStrategy = ttnn._ttnn.operations.moreh.MorehSoftmaxBackwardOpParallelizationStrategy
 SoftmaxOp = ttnn._ttnn.operations.moreh.MorehSoftmaxOpParallelizationStrategy
 SoftmaxOpParallelizationStrategy = ttnn._ttnn.operations.moreh.MorehSoftmaxOpParallelizationStrategy
+
